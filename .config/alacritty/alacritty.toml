@@ -1,0 +1,37 @@
+[general]
+import = [
+   "~/.config/alacritty/themes/catppuccin-mocha.toml",
+   # "~/.config/alacritty/themes/hardhacker.yml",
+
+]
+
+
+live_config_reload = true
+
+[terminal.shell]
+    program = "/usr/bin/zsh"
+    args = ["-l"]
+
+[window]
+    opacity = 0.9
+    blur = true  # make background blur 
+    # dynamic_padding = true
+    padding.x = 10
+    padding.y = 10
+    decorations = "Full"
+
+[window.dimensions]
+  columns = 120
+  lines = 50
+
+[scrolling]
+    history = 10000
+    multiplier = 3
+
+[font]
+    normal.family = "JetBrainsMono NF"
+    bold.family = "JetBrainsMono NF"
+    italic.family = "JetBrainsMono NF"
+    bold_italic.family = "JetBrainsMono NF"
+
+    size = 15.0

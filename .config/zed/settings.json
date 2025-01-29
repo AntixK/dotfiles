@@ -1,0 +1,35 @@
+{
+  "languages": {
+    "Python": {
+      "show_inline_completions": true
+    }
+  },
+  "features": {
+    "inline_completion_provider": "copilot"
+  },
+  "assistant": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "claude-3-5-sonnet"
+    },
+    "version": "2"
+  },
+  "telemetry": {
+    "metrics": false,
+    "diagnostics": false
+  },
+  "theme": {
+    "mode": "system",
+    "light": "Ayu Dark",
+    "dark": "One Dark"
+  },
+  "ui_font_size": 17,
+  "buffer_font_size": 17,
+  "buffer_font_family": "FiraCode Nerd Font",
+  "ui_font_family": "FiraCode Nerd Font",
+  "soft_wrap": "preferred_line_length",
+  "ui_font_fallbacks": ["FiraCode Nerd Font"],
+  "ui_font_features": {
+    "calt": true
+  }
+}
